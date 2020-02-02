@@ -1,0 +1,220 @@
+/*
+Author Name: Mijanur Rahman;
+Mail Address: mijanurrahman05@gmail.com;
+
+Site Url: https://uniqueleadpro.com/;
+
+GPL Licence:3.4.1;
+*/
+
+/*
+========Index=======
+1. Header
+2. Fusce at
+3. Facilisic
+4. Ante donec
+5. Blandin rhoncus
+6. Placerat
+7. Footer
+
+*/
+
+/*-----Global CSS------*/
+h1{
+	color: #fff;
+	font-size: 72px;
+}
+h2{
+	color: #fff;
+	font-size: 30px;
+}
+h5{
+	color: #fff;
+	font-size: 35px;
+	font-weight: 400;
+}
+h3{
+	color: #fff;
+	font-size: 17px;
+}
+h4{
+	color: #191b29;
+	font-size: 32px;
+	font-weight: 400;
+}
+p{
+	color: #31353e;
+	font-size: 17px;
+}
+
+.cstm-btn-one{
+	background-color: #fff;
+	color: #612316;
+	padding: 9px 30px;
+	border-radius: 20px;
+	border-style: none;
+	display: block;
+	margin: 0 auto;
+}
+
+.cstm-btn-three{
+	background-color: #dd4b2b;
+	color: #fff;
+	padding: 8px 35px;
+	border-radius: 20px;
+	border-style: none;
+	margin-top: 20px;
+}
+
+/*----------------------Theme CSS--------------------*/
+
+/*Navigation Section*/
+
+.nav-head{
+	padding: 25px 0;
+	background-color: #edeff1!important;
+}
+
+.nav-link{
+	color: #31353e;
+	margin-right: 10px;
+}
+.nav-link.js-scroll-trigger.active{
+	background-color: #dd4b2b;
+	color: #fff!important;
+	padding: 7px 18px;
+	border-radius: 30px;
+
+}
+.navbar-toggler-icon{
+	background-color: #fff;
+	color: #050706!important;
+}
+.menu{
+	max-width: 40px;
+
+}
+
+/*---Fusce at-----*/
+.hero{
+	background: url(../img/banner.png)no-repeat center top;
+	background-size: cover;
+}
+.hero-title{
+	padding-top: 410px;
+	text-align: center;
+}
+.item-one{
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 80px;
+}
+.item-one h5{
+	padding-top: 25px;
+}
+
+
+/*---Facilisic---*/
+.news{
+	background-color: #edeff1;
+	padding: 100px 0px;
+}
+
+.item-one h4{
+	padding-top: 25px;
+}
+
+.item-one p{
+	padding-bottom: 15px;
+}
+
+
+/*---Ante donec---*/
+.newsletter{
+	background: url(../img/newsletter-bg.png)no-repeat center top;
+	background-size: cover;
+	padding-top: 80px;
+	padding-bottom: 70px;
+}
+
+.form-control{
+	width: 65%;
+	background: transparent;
+	padding: 7px 26px;
+	border-radius: 25px;
+	position: relative;
+	border: 1px solid #fff;
+}
+.cstm-btn-two{
+	color: #612316;
+	border-style: none;
+    padding: 7px 35px;
+    border-radius: 25px;
+    position: absolute;
+    top: 75%;
+    left: 68%;
+    border: 1px solid #fff;
+}
+
+
+/*---Blandin rhoncus---*/
+.food{
+	padding: 50px 0px;
+}
+.food-one{
+	padding: 10px 0px;
+}
+
+.btn-cng{
+	background-color: #4b4e73;
+}
+
+/*---Placerat---*/
+.last-sec{
+	background: #d75d0e;
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
+
+.last-sec-items{
+	text-align: center;
+}
+.last-sec-items ul{
+	list-style: none;
+}
+.last-sec-items ul li{
+	color: #fff;
+}
+
+/*---Footer---*/
+footer{
+	background: url(../img/newsletter-bg.png)no-repeat center top;
+	background-size: cover;
+	padding: 80px 0px 200px 0px;
+}
+strong{
+	font-weight: 600;
+}
+
+
+
+/*Media querry*/
+
+/*------------- Mobile devices----------- */
+@media (min-width: 501px) and (max-width: 768) {
+.nav-link.js-scroll-trigger.active{
+	border-radius: 0px;
+
+}
+
+
+}
+/*----------------Small devices----------- */
+
+@media (min-width: 769px) and (max-width: 1140px) {
+
+
+
+}
+/*----------------- large devices----------------*/
+@media (min-width: 1200px) { ... }
